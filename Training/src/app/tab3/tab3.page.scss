@@ -1,0 +1,41 @@
+ion-header {
+    position: relative;
+    text-align: center;
+    background-color: black;
+    
+    ion-img {
+        opacity: 0.5;
+    }
+    
+    ion-label {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+ion-content {
+    ion-fab {
+        
+        ion-fab-button {
+            --background: orange!important;
+            --background-activated: orange!important;
+            --background-focused: orange!important;
+            --background-hover: orange!important;	
+        }
+    }
+    
+    ion-text {
+        text-align: center;
+        color: grey;
+        
+        p {
+            font-size: 11px;
+        }
+    }
+}
+
