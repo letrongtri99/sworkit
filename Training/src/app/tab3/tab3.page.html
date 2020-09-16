@@ -1,17 +1,19 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
+  <ion-img src="https://miro.medium.com/max/14144/1*toyr_4D7HNbvnynMj5XjXw.jpeg"></ion-img>
+  <ion-label>My Custom Workouts</ion-label>
+  
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-fab style="margin-top: -40px;"  vertical="top" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-text>
+    <h1>WORKIT</h1>
+    <p>You haven't created any custom workouts ... yet.</p>
+  </ion-text>
+
 </ion-content>
