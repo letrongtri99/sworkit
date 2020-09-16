@@ -1,1 +1,19 @@
 
+ion-tab-bar {
+    padding: 10px;
+    padding-top: 0;
+
+    ion-tab-button {
+        ion-icon {
+            font-size: 32px;
+        }
+        
+        ion-label {
+            font-size: 9px;
+        }
+
+        --color-selected: orange;
+        --ripple-color: white;
+        padding: 0 7px; 
+    }
+}
