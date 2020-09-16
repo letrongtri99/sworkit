@@ -1,7 +1,7 @@
 ion-header {
     position: relative;
     text-align: center;
-    
+    background-color: black;
     ion-label {
         position: absolute;
         top: 40%;
@@ -58,11 +58,15 @@ ion-content {
         }
     }
 
-    .float-stat-container {
-        position: absolute;
-        top: 40%;
-        left: 0;
-        right: 0;
-    }
+
 }
 
+.float-stat-container {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    right: 0;
+    margin: 0 20px;
+    z-index: 999;
+    padding: 15px;
+}
