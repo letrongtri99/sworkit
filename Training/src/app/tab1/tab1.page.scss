@@ -1,4 +1,67 @@
 .heart_button {
     --background: white;
     --box-shadow: none;
+.image-container {
+    background-size: cover;
+    min-height: 150px;
+    border-radius: 5px;
+}
+
+.image-container0 {
+    background-size: cover;
+    min-height: 200px;
+    border-radius: 5px;
+}
+
+.ripple-parent {
+    position: relative;
+    overflow: hidden;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0%;
+    top: 5%;
+}
+
+.setCenter {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    width: 95%;
+    font-weight: bold;
+}
+
+.setCenter1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #ff9400;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.setLeft {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+
+.setRight {
+    position: absolute;
+    bottom: 0px;
+    background-color: #ff9400;
+    border-radius: 5px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    right: 0px;
+    padding: 2px;
 }

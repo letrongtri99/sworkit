@@ -26,7 +26,95 @@
     </ion-row>
   </ion-grid>
 </ion-header>
-<ion-content [fullscreen]="true">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div style="position: relative;">
+        <div (click)="presentModal()" class="image-container ion-activatable ripple-parent" [style.background-image]="'url(assets/images/0.jpg)'" style="filter: brightness(0.7);">
+          <ion-ripple-effect style="color: #ff5e00;"></ion-ripple-effect>
+        </div>
+        <div class="ion-activatable ripple-parent square" (click)="showAction()"> 
+          <ion-icon name="ellipsis-vertical-outline" style="color: white; vertical-align: bottom; font-size: 20px;"></ion-icon>
+          <ion-ripple-effect style="color: #ff5e00;"></ion-ripple-effect>
+        </div>
+        <ion-text color="light">
+          <div class="setLeft">
+            <p style="font-size: 20px; font-weight: bold; margin: 0;">Workout of the Day</p>
+            <p style="font-size: 14px; margin: 0;">Advanced Cardio</p>
+          </div>
+        </ion-text>
+        <ion-text color="light">
+          <p (click)="presentModal()" class="ion-activatable setRight ripple-parent">
+            SEPTEMBER CHALLENGE
+              <ion-icon name="arrow-forward-outline" style="vertical-align: top;"></ion-icon>
+            <ion-ripple-effect style="color: white"></ion-ripple-effect>
+          </p>
+        </ion-text>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-text color="dark">
+          <p style="font-weight: bolder; font-size: 16px; margin-bottom: 0px; margin-top: 5px;">Essentials</p>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col 
+      size="12"
+      size-xs="6"
+      size-sm="6"
+      size-md="4"
+      size-lg="3"
+      *ngFor="let x of essentials" (click)="presentModalTest(x)">
+        <div style="position: relative; text-align: center;">
+        <div class="image-container0 ion-activatable ripple-parent" [style.background-image]="'url(assets/images/' + x.img + '.jpg)'" style="filter: brightness(0.5);">
+          <ion-ripple-effect style="color: #ff5e00;"></ion-ripple-effect>
+        </div>
+        <ion-text color="light">
+          <p class="setCenter">{{x.name}}</p>
+        </ion-text>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div style="position: relative; text-align: center;">
+        <div (click)="presentModal()" class="image-container ion-activatable ripple-parent" [style.background-image]="'url(assets/images/0.jpg)'" style="filter: brightness(0.5);">
+          <ion-ripple-effect style="color: #ff5e00;"></ion-ripple-effect>
+        </div>
+        <ion-text color="light">
+          <p class="setCenter">Sworkit Kid Workouts</p>
+          <p class="setCenter1">FOREVER FREE</p>
+        </ion-text>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-text color="dark">
+          <p style="font-weight: bolder; font-size: 16px; margin-bottom: 0px; margin-top: 5px;">Workout Collections</p>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col 
+      size="12"
+      size-xs="6"
+      size-sm="6"
+      size-md="4"
+      size-lg="3"
+      *ngFor="let x of workoutCollections" (click)="presentModalTest(x)">
+        <div style="position: relative; text-align: center;">
+        <div class="image-container ion-activatable ripple-parent" [style.background-image]="'url(assets/images/' + x.img + '.jpg)'" style="filter: brightness(0.5);">
+          <ion-ripple-effect style="color: #ff5e00;"></ion-ripple-effect>
+        </div>
+        <ion-text color="light">
+          <p class="setCenter">{{x.name}}</p>
+        </ion-text>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
