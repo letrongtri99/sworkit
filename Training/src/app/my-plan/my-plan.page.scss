@@ -1,0 +1,62 @@
+.ios body.dark component-card {
+    --ion-item-background: #1c1c1e;
+  }
+  
+
+  
+  component-card ion-card ion-card-subtitle {
+    color: var(--text-lighter);
+  }
+  
+  component-card ion-card ion-card-title {
+    color: var(--text-darker);
+  }
+  
+  component-card ion-card ion-card-content {
+    color: var(--text-light);
+  }
+  
+  component-card ion-card ion-list ion-item {
+    --padding-start: 0;
+  }
+  
+  /* Action Card */
+
+  .md component-card .action-card .button-clear {
+
+    --background-hover: currentColor;
+    --background-focused: currentColor;
+  }
+
+  
+  component-card .action-card .button-clear {
+    --color: #c6cede;
+    --border-radius: 50%;
+    --padding-top: 0;
+    --padding-end: 0;
+    --padding-bottom: 0;
+    --padding-start: 0;
+  
+    margin: 0;
+  
+    height: 36px;
+    width: 36px;
+  }
+  
+  /* Apps Card */
+
+    ion-content.background_1{
+        --background: url("https://i.pinimg.com/originals/29/27/09/292709260a93adc3e98a26b539d41aec.png") 0 0/100% 100% ;
+    }
+
+    ion-content.background_2{
+        --background: url("https://lh3.googleusercontent.com/bsx0iopOFdcyypolXMHlswUdzCYmQWLmUo6UHneRsybV0GpcO_jnUq8DPurM9rJ2SZI") 0 0/100% 100% ;
+    }
+    ion-content.background_3{
+        --background: url("https://socalcitykids.com/wp-content/uploads/2016/01/unnamed-6.jpg") 0 0/100% 100% ;
+    }
+
+    .action-card {
+        height: 135px;
+    }
+  
