@@ -17,10 +17,10 @@ ion-header {
         font-size: 12px;
     }
 
-    ion-button {
+    #calendar-btn {
         position: absolute;
         top: 70%;
-        right: -5%;
+        right: 0;
         --border-color: none;
         --background: transparent;
         --background-focused: transparent;
@@ -30,7 +30,7 @@ ion-header {
         
         ion-icon {
             color: #fff;
-            font-size: 20px;
+            font-size: 24px;
             font-weight: bold;
         }
     }

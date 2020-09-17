@@ -8,6 +8,7 @@ import { Tab4PageRoutingModule } from './tab4-routing.module';
 
 import { Tab4Page } from './tab4.page';
 import { StatsTableComponent } from '../components/stats-table/stats-table.component';
+import { MonthlyStatsTableComponent } from '../components/monthly-stats-table/monthly-stats-table.component';
 
 @NgModule({
   imports: [
@@ -16,6 +17,6 @@ import { StatsTableComponent } from '../components/stats-table/stats-table.compo
     IonicModule,
     Tab4PageRoutingModule
   ],
-  declarations: [Tab4Page, StatsTableComponent]
+  declarations: [Tab4Page, StatsTableComponent, MonthlyStatsTableComponent]
 })
 export class Tab4PageModule {}

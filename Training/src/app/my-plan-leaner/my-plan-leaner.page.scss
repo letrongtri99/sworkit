@@ -1,0 +1,29 @@
+    ion-toolbar{
+        --background: url("https://i.pinimg.com/originals/29/27/09/292709260a93adc3e98a26b539d41aec.png") 0 0/100% 100% ;
+        height: 150px;
+    }
+
+    ion-content{
+        position: relative;
+    }
+    
+    ion-text{
+        position: absolute;
+        margin-left: 10px;
+    }
+    
+    ion-list.margin-top-90 {
+        margin-top: 90px;
+    }
+
+    .description-content{
+        font-size: 12.5px;
+    }
+
+    ion-col{
+        font-size: 15px;
+    }
+
+    ion-list.list-md{
+        padding: 0;
+    }
