@@ -12,6 +12,10 @@ const routes: Routes = [
   {
     path: 'stats',
     loadChildren: () => import('./stats/stats.module').then( m => m.StatsPageModule)
+  },
+  {
+    path: 'create-custom-wokrout-modal',
+    loadChildren: () => import('./create-custom-wokrout-modal/create-custom-wokrout-modal.module').then( m => m.CreateCustomWokroutModalPageModule)
   }
 
 ];
