@@ -37,6 +37,10 @@ const routes: Routes = [
   {
     path: 'my-plan-fitter',
     loadChildren: () => import('./my-plan-fitter/my-plan-fitter.module').then( m => m.MyPlanFitterPageModule)
+  },
+  {
+    path: 'create-custom-wokrout-modal',
+    loadChildren: () => import('./create-custom-wokrout-modal/create-custom-wokrout-modal.module').then( m => m.CreateCustomWokroutModalPageModule)
   }
 
 ];

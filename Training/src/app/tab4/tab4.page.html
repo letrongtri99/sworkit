@@ -1,25 +1,45 @@
 <ion-header>
-  <ion-img src="https://img.freepik.com/free-photo/old-grunge-cement-wall-backgrounds_34552-195.jpg?size=626&ext=jpg"></ion-img>
+  <ion-img src="https://img.freepik.com/free-photo/old-grunge-cement-wall-backgrounds_34552-195.jpg?size=626&ext=jpg">
+  </ion-img>
   <ion-label>Bao Quoc dz<br>
     <ion-text>Start your workout streak today!</ion-text>
   </ion-label>
-  
-  <ion-button>
+
+  <ion-button id="calendar-btn">
     <ion-icon name="calendar-outline"></ion-icon>
     <span style="margin-left: 5px;
                 margin-top: 5px;
-                font-size: 10px;
+                font-size: 16px;
                 text-transform: none;">Calendar</span>
   </ion-button>
   <div class="float-stat-container shadow bg-white rounded">
-    <app-stats-table>
+    <ion-fab vertical="top" horizontal="start" slot="fixed" style="font-size: 24px;" (click)="swipePrev()" *ngIf="!disablePrevBtn">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-fab>
+    <ion-fab vertical="top" horizontal="end" slot="fixed" style="font-size: 24px;" (click)="swipeNext()" *ngIf="!disableNextBtn">
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+    </ion-fab>
 
-    </app-stats-table>
+    <ion-slides #mySlider (ionSlideWillChange)="doCheck()">
+      <ion-slide>
+        <app-stats-table style="width:100%">
+
+        </app-stats-table>
+      </ion-slide>
+      <ion-slide>
+        <app-monthly-stats-table style="width:100%">
+
+        </app-monthly-stats-table>
+      </ion-slide>
+      <ion-slide>
+        <h1>Slide 3</h1>
+      </ion-slide>
+    </ion-slides>
   </div>
 </ion-header>
 
 <ion-content>
-  
+
 
 
 </ion-content>

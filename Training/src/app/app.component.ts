@@ -39,7 +39,7 @@ export class AppComponent {
       
       setTimeout(() => {
         this.splashScreen.hide();
-      }, 1000);
+      }, 3000);
     });
   }
   toggleMenu(namePage) {
