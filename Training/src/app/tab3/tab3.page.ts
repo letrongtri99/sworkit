@@ -1,3 +1,4 @@
+import { ModalBaseComponent } from './../components/modal-base/modal-base.component';
 import { Component } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { CreateCustomWokroutModalPage } from '../create-custom-wokrout-modal/create-custom-wokrout-modal.page'
@@ -14,7 +15,10 @@ export class Tab3Page {
 
   async presentModal() {
     const modal = await this.modalController.create({
-      component: CreateCustomWokroutModalPage,
+      component: ModalBaseComponent,
+      componentProps: {
+        rootPage: CreateCustomWokroutModalPage
+      },
       cssClass: 'my-custom-class'
     });
 
