@@ -41,7 +41,11 @@ const routes: Routes = [
   {
     path: 'create-custom-wokrout-modal',
     loadChildren: () => import('./create-custom-wokrout-modal/create-custom-wokrout-modal.module').then( m => m.CreateCustomWokroutModalPageModule)
+  },  {
+    path: 'mini-modal',
+    loadChildren: () => import('./mini-modal/mini-modal.module').then( m => m.MiniModalPageModule)
   }
+
 
 ];
 @NgModule({

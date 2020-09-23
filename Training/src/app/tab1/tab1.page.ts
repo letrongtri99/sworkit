@@ -16,25 +16,116 @@ export class Tab1Page {
       img: 5,
       exercises: [
         {nameEx: "No Gym, No Problem: Leg Day",
-        imgEx: 7
+        imgEx: 7,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "No Gym, No Problem: Arm Day",
-        imgEx: 6
+        imgEx: 6,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-        imgEx: 1
+        imgEx: 1,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Quick Sweat at Home No Jumping",
-        imgEx: 2
+        imgEx: 2,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Small Space Dumbell Workout",
-        imgEx: 8
+        imgEx: 8,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Tiny Room, Big Hit",
-        imgEx: 9
+        imgEx: 9,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Don't Wake the Baby: A Workout for Mom",
-        imgEx: 7
+        imgEx: 7,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
       ]
     },
@@ -43,25 +134,116 @@ export class Tab1Page {
       img: 9,
       exercises: [
         {nameEx: "No Gym, No Problem: Leg Day",
-        imgEx: 7
+        imgEx: 7,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "No Gym, No Problem: Arm Day",
-        imgEx: 6
+        imgEx: 6,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-        imgEx: 1
+        imgEx: 1,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Quick Sweat at Home No Jumping",
-        imgEx: 2
+        imgEx: 2,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Small Space Dumbell Workout",
-        imgEx: 8
+        imgEx: 8,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Tiny Room, Big Hit",
-        imgEx: 9
+        imgEx: 9,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Don't Wake the Baby: A Workout for Mom",
-        imgEx: 7
+        imgEx: 7,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
       ]
     },
@@ -70,25 +252,116 @@ export class Tab1Page {
       img: 10,
       exercises: [
         {nameEx: "No Gym, No Problem: Leg Day",
-        imgEx: 7
+        imgEx: 7,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "No Gym, No Problem: Arm Day",
-        imgEx: 6
+        imgEx: 6,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-        imgEx: 1
+        imgEx: 1,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Quick Sweat at Home No Jumping",
-        imgEx: 2
+        imgEx: 2,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Small Space Dumbell Workout",
-        imgEx: 8
+        imgEx: 8,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Tiny Room, Big Hit",
-        imgEx: 9
+        imgEx: 9,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Don't Wake the Baby: A Workout for Mom",
-        imgEx: 7
+        imgEx: 7,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
       ]
     },
@@ -97,25 +370,116 @@ export class Tab1Page {
       img: 11,
       exercises: [
         {nameEx: "No Gym, No Problem: Leg Day",
-        imgEx: 7
+        imgEx: 7,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "No Gym, No Problem: Arm Day",
-        imgEx: 6
+        imgEx: 6,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-        imgEx: 1
+        imgEx: 1,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Quick Sweat at Home No Jumping",
-        imgEx: 2
+        imgEx: 2,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Small Space Dumbell Workout",
-        imgEx: 8
+        imgEx: 8,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Tiny Room, Big Hit",
-        imgEx: 9
+        imgEx: 9,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
         {nameEx: "Don't Wake the Baby: A Workout for Mom",
-        imgEx: 7
+        imgEx: 7,
+        miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+        miniEx: [
+          {miniIcon: 123, nameEx: "Squats"},
+          {miniIcon: 123, nameEx: "Single Leg Squats"},
+          {miniIcon: 123, nameEx: "Foward Lunges"},
+          {miniIcon: 123, nameEx: "Rear Lunges"},
+          {miniIcon: 123, nameEx: "Front Kicks"},
+          {miniIcon: 123, nameEx: "Reverse V Lunges"},
+          {miniIcon: 123, nameEx: "Calf Raises"},
+          {miniIcon: 123, nameEx: "Step Ups"},
+          {miniIcon: 123, nameEx: "Wide Squats"},
+          {miniIcon: 123, nameEx: "Side Squat"}
+        ]
         },
       ]
     },
@@ -126,25 +490,116 @@ export class Tab1Page {
     content: "These workouts are designed to keep your neighbors happy with less jumping and to accommodate small spaces",
     exercises: [
       {nameEx: "No Gym, No Problem: Leg Day",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "No Gym, No Problem: Arm Day",
-      imgEx: 6
+      imgEx: 6,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-      imgEx: 1
+      imgEx: 1,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Quick Sweat at Home No Jumping",
-      imgEx: 2
+      imgEx: 2,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Small Space Dumbell Workout",
-      imgEx: 8
+      imgEx: 8,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Tiny Room, Big Hit",
-      imgEx: 9
+      imgEx: 9,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Don't Wake the Baby: A Workout for Mom",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]  
       },
     ] 
     },
@@ -153,25 +608,116 @@ export class Tab1Page {
     content: "These workouts are designed to keep your neighbors happy with less jumping and to accommodate small spaces",
     exercises: [
       {nameEx: "No Gym, No Problem: Leg Day",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "No Gym, No Problem: Arm Day",
-      imgEx: 6
+      imgEx: 6,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-      imgEx: 1
+      imgEx: 1,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Quick Sweat at Home No Jumping",
-      imgEx: 2
+      imgEx: 2,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Small Space Dumbell Workout",
-      imgEx: 8
+      imgEx: 8,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Tiny Room, Big Hit",
-      imgEx: 9
+      imgEx: 9,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Don't Wake the Baby: A Workout for Mom",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
     ] 
     },
@@ -180,25 +726,116 @@ export class Tab1Page {
     content: "These workouts are designed to keep your neighbors happy with less jumping and to accommodate small spaces",
     exercises: [
       {nameEx: "No Gym, No Problem: Leg Day",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "No Gym, No Problem: Arm Day",
-      imgEx: 6
+      imgEx: 6,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-      imgEx: 1
+      imgEx: 1,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Quick Sweat at Home No Jumping",
-      imgEx: 2
+      imgEx: 2,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Small Space Dumbell Workout",
-      imgEx: 8
+      imgEx: 8,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Tiny Room, Big Hit",
-      imgEx: 9
+      imgEx: 9,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Don't Wake the Baby: A Workout for Mom",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
     ] 
     },
@@ -207,25 +844,116 @@ export class Tab1Page {
     content: "These workouts are designed to keep your neighbors happy with less jumping and to accommodate small spaces",
     exercises: [
       {nameEx: "No Gym, No Problem: Leg Day",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "No Gym, No Problem: Arm Day",
-      imgEx: 6
+      imgEx: 6,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-      imgEx: 1
+      imgEx: 1,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Quick Sweat at Home No Jumping",
-      imgEx: 2
+      imgEx: 2,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Small Space Dumbell Workout",
-      imgEx: 8
+      imgEx: 8,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Tiny Room, Big Hit",
-      imgEx: 9
+      imgEx: 9,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Don't Wake the Baby: A Workout for Mom",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
     ] 
     },
@@ -234,25 +962,116 @@ export class Tab1Page {
     content: "These workouts are designed to keep your neighbors happy with less jumping and to accommodate small spaces",
     exercises: [
       {nameEx: "No Gym, No Problem: Leg Day",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "No Gym, No Problem: Arm Day",
-      imgEx: 6
+      imgEx: 6,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-      imgEx: 1
+      imgEx: 1,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Quick Sweat at Home No Jumping",
-      imgEx: 2
+      imgEx: 2,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Small Space Dumbell Workout",
-      imgEx: 8
+      imgEx: 8,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Tiny Room, Big Hit",
-      imgEx: 9
+      imgEx: 9,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Don't Wake the Baby: A Workout for Mom",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
     ]
     },
@@ -261,25 +1080,116 @@ export class Tab1Page {
     content: "These workouts are designed to keep your neighbors happy with less jumping and to accommodate small spaces",
     exercises: [
       {nameEx: "No Gym, No Problem: Leg Day",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "No Gym, No Problem: Arm Day",
-      imgEx: 6
+      imgEx: 6,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-      imgEx: 1
+      imgEx: 1,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Quick Sweat at Home No Jumping",
-      imgEx: 2
+      imgEx: 2,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Small Space Dumbell Workout",
-      imgEx: 8
+      imgEx: 8,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Tiny Room, Big Hit",
-      imgEx: 9
+      imgEx: 9,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Don't Wake the Baby: A Workout for Mom",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
     ]
     },
@@ -288,25 +1198,116 @@ export class Tab1Page {
     content: "These workouts are designed to keep your neighbors happy with less jumping and to accommodate small spaces",
     exercises: [
       {nameEx: "No Gym, No Problem: Leg Day",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "No Gym, No Problem: Arm Day",
-      imgEx: 6
+      imgEx: 6,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-      imgEx: 1
+      imgEx: 1,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Quick Sweat at Home No Jumping",
-      imgEx: 2
+      imgEx: 2,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Small Space Dumbell Workout",
-      imgEx: 8
+      imgEx: 8,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Tiny Room, Big Hit",
-      imgEx: 9
+      imgEx: 9,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Don't Wake the Baby: A Workout for Mom",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
     ]
     },
@@ -315,25 +1316,116 @@ export class Tab1Page {
     content: "These workouts are designed to keep your neighbors happy with less jumping and to accommodate small spaces",
     exercises: [
       {nameEx: "No Gym, No Problem: Leg Day",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "No Gym, No Problem: Arm Day",
-      imgEx: 6
+      imgEx: 6,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-      imgEx: 1
+      imgEx: 1,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Quick Sweat at Home No Jumping",
-      imgEx: 2
+      imgEx: 2,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Small Space Dumbell Workout",
-      imgEx: 8
+      imgEx: 8,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Tiny Room, Big Hit",
-      imgEx: 9
+      imgEx: 9,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Don't Wake the Baby: A Workout for Mom",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
     ]
     },
@@ -342,25 +1434,116 @@ export class Tab1Page {
     content: "These workouts are designed to keep your neighbors happy with less jumping and to accommodate small spaces",
     exercises: [
       {nameEx: "No Gym, No Problem: Leg Day",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "No Gym, No Problem: Arm Day",
-      imgEx: 6
+      imgEx: 6,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-      imgEx: 1
+      imgEx: 1,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Quick Sweat at Home No Jumping",
-      imgEx: 2
+      imgEx: 2,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Small Space Dumbell Workout",
-      imgEx: 8
+      imgEx: 8,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Tiny Room, Big Hit",
-      imgEx: 9
+      imgEx: 9,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Don't Wake the Baby: A Workout for Mom",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
     ]
     },
@@ -369,25 +1552,116 @@ export class Tab1Page {
     content: "These workouts are designed to keep your neighbors happy with less jumping and to accommodate small spaces",
     exercises: [
       {nameEx: "No Gym, No Problem: Leg Day",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "No Gym, No Problem: Arm Day",
-      imgEx: 6
+      imgEx: 6,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-      imgEx: 1
+      imgEx: 1,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Quick Sweat at Home No Jumping",
-      imgEx: 2
+      imgEx: 2,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Small Space Dumbell Workout",
-      imgEx: 8
+      imgEx: 8,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Tiny Room, Big Hit",
-      imgEx: 9
+      imgEx: 9,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Don't Wake the Baby: A Workout for Mom",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
     ]
     },
@@ -396,25 +1670,116 @@ export class Tab1Page {
     content: "These workouts are designed to keep your neighbors happy with less jumping and to accommodate small spaces",
     exercises: [
       {nameEx: "No Gym, No Problem: Leg Day",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "No Gym, No Problem: Arm Day",
-      imgEx: 6
+      imgEx: 6,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Six-Pack Challenge: Quiet Neighbor Edition",
-      imgEx: 1
+      imgEx: 1,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Quick Sweat at Home No Jumping",
-      imgEx: 2
+      imgEx: 2,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Small Space Dumbell Workout",
-      imgEx: 8
+      imgEx: 8,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Tiny Room, Big Hit",
-      imgEx: 9
+      imgEx: 9,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
       {nameEx: "Don't Wake the Baby: A Workout for Mom",
-      imgEx: 7
+      imgEx: 7,
+      miniContentEx: "Build tone muscle in your legs with these strength and cardio exercises WITHOUT the gym",
+      miniEx: [
+        {miniIcon: 123, nameEx: "Squats"},
+        {miniIcon: 123, nameEx: "Single Leg Squats"},
+        {miniIcon: 123, nameEx: "Foward Lunges"},
+        {miniIcon: 123, nameEx: "Rear Lunges"},
+        {miniIcon: 123, nameEx: "Front Kicks"},
+        {miniIcon: 123, nameEx: "Reverse V Lunges"},
+        {miniIcon: 123, nameEx: "Calf Raises"},
+        {miniIcon: 123, nameEx: "Step Ups"},
+        {miniIcon: 123, nameEx: "Wide Squats"},
+        {miniIcon: 123, nameEx: "Side Squat"}
+      ]
       },
     ]
     }
