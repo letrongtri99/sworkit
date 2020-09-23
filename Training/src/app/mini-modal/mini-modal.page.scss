@@ -27,20 +27,31 @@
     font-weight: bold;
 }
 
-.image-container1 {
-    background-size: cover;
-    min-height: 100px;
-    border-radius: 5px;
-}
-
-.setText {
-    color: #000000e8;
-    margin: 0;
-    font-size: 14px;
-    margin-top: 3px;
-}
-
 .demo {
     position: absolute;
     top: 5px;
+}
+
+.adjustText {
+    color: darkslategrey;
+    padding-left: 70px;
+}
+
+.setLine {
+    position: absolute;
+    background-color: #fff;
+    height: 1px solid;
+    height: 1px;
+    width: 28%;
+    bottom: -1px;
+    left: 0px;
+}
+
+.setIcon {
+    position: absolute;
+    left: 7%;
+}
+
+.my-custom-class {
+    text-align: center;
 }
