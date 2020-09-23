@@ -7,7 +7,7 @@
         </ion-button>
       </ion-buttons>
       <ion-title>Create Custom Workout<br>
-        <small>0 exercise</small>
+        <small>{{selectedExercise.length}} exercise</small>
       </ion-title>
   
       <ion-buttons slot="end" >
@@ -15,11 +15,6 @@
           Next
         </ion-button>
       </ion-buttons>
-      <!-- <ion-nav-link router-direction="forward" [component]="settingPage">
-        <ion-item button>
-          <ion-icon name="arrow-forward" slot="end"></ion-icon>Next
-        </ion-item>
-      </ion-nav-link> -->
     </ion-toolbar>
 
     <ion-slides #customWorkoutSlide [options]="slideOpt">
@@ -49,7 +44,7 @@
   
   
     <ion-text style="margin-left: 10px; float: left; margin-top: 10px;">
-      {{exercises.length}}
+      {{exercises.length}} exercises
     </ion-text>
     <ion-text style="--color: #505050; float: right; margin-top: 10px;">
       Filter <span>
@@ -64,7 +59,7 @@
     <ion-list>
       <ion-item button *ngFor="let exercise of exercises" (click)="addExercise(exercise.id)">
         <img  slot="start" width="20%" src="{{ exercise.img }}" alt="">
-        <ion-label>
+        <ion-label class="ion-text-wrap">
           <h3>{{ exercise.title }}</h3>
           <ion-note>{{ exercise.subtitle }}</ion-note>
         </ion-label>

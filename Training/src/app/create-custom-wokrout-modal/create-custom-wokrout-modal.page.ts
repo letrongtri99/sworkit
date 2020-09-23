@@ -20,7 +20,7 @@ export class CreateCustomWokroutModalPage implements OnInit {
     },
     {
       id: 2,
-      title: 'Airplane Pose (Left)',
+      title: 'Airplane Pose Khasd asdjasd IQJDwqd JSDhKJ(Left)',
       subtitle: 'Rehab & Care',
       img: 'https://storage.googleapis.com/sworkit-assets/images/exercises/standard/middle-frame/squat-jack.jpg',
     },
