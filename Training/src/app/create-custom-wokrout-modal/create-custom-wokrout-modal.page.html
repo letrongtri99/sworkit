@@ -23,9 +23,16 @@
     </ion-toolbar>
 
     <ion-slides #customWorkoutSlide [options]="slideOpt">
+      <ion-slide *ngIf="selectedExercise.length == 0">
+        <div class="item">
+          <img
+            src="https://img.wallpapersafari.com/desktop/1536/864/49/62/dIDXKG.jpg" />
+          <span style="width: 300px;" class="caption">Tap an exercise to add it your custom workout</span>
+        </div>
+      </ion-slide>
       <ion-slide *ngFor="let exercise of selectedExercise">
         <div class="item">
-          <button (click)="deleteExercise(exercise.keyId)">x</button>
+          <button *ngIf="exercise.title != ''" (click)="deleteExercise(exercise.keyId)">x</button>
           <img
             src="{{ exercise.img }}" />
           <span class="caption">{{exercise.title}}</span>
@@ -33,13 +40,11 @@
       </ion-slide>
       <ion-slide *ngFor="let exercise of blankExercises">
         <div class="item">
-          <button>x</button>
           <img
             src="{{ exercise.img }}" />
           <span class="caption">{{exercise.title}}</span>
         </div>
       </ion-slide>
-      <!-- <ion-text >Tap an exercise to add it your custom workout</ion-text> -->
     </ion-slides>
   
   
@@ -57,14 +62,14 @@
   
   <ion-content>
     <ion-list>
-      <ion-item *ngFor="let exercise of exercises">
+      <ion-item *ngFor="let exercise of exercises" (click)="addExercise(exercise.id)">
         <img style="width: 30%" src='{{ exercise.img }}' alt="">
         <div class="item_adder">
           <ion-label>{{ exercise.title }}</ion-label>
           <ion-note>{{ exercise.subtitle }}</ion-note>
           <ion-fab vertical="center" horizontal="end">
             <ion-fab-button>
-              <ion-icon name="add" (click)="addExercise(exercise.id)"></ion-icon>
+              <ion-icon name="add"></ion-icon>
             </ion-fab-button>
           </ion-fab>
         </div>

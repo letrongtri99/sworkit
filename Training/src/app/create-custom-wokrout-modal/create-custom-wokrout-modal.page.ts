@@ -60,7 +60,7 @@ export class CreateCustomWokroutModalPage implements OnInit {
 
   ngOnInit() {
     if(this.blankExercises.length == 0) {
-      while(this.blankExercises.length < 6) {
+      while(this.blankExercises.length < 5) {
         this.blankExercises.push(
           {
             title: '',
@@ -105,13 +105,13 @@ export class CreateCustomWokroutModalPage implements OnInit {
   deleteExercise(keyId) {
     this.selectedExercise = this.selectedExercise.filter(e => e.keyId != keyId)
     
-    if(this.selectedExercise.length == 0) {
-      this.blankExercises.push({
-        title: '',
-        subtitle: '',
-        img: 'https://img.wallpapersafari.com/desktop/1536/864/49/62/dIDXKG.jpg'
-      })
-    }
+    // if(this.selectedExercise.length == 0) {
+    //   this.blankExercises.push({
+    //     title: '',
+    //     subtitle: '',
+    //     img: 'https://img.wallpapersafari.com/desktop/1536/864/49/62/dIDXKG.jpg'
+    //   })
+    // }
   }
 
   slideOpt ={
