@@ -1,3 +1,5 @@
+import { SharedComponentsModule } from './../components/shared-components.module';
+import { ModalBaseComponent } from './../components/modal-base/modal-base.component';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
@@ -16,7 +18,9 @@ import { Tab3PageRoutingModule } from './tab3-routing.module'
     ExploreContainerComponentModule,
     RouterModule.forChild([{ path: '', component: Tab3Page }]),
     Tab3PageRoutingModule,
+    SharedComponentsModule
   ],
-  declarations: [Tab3Page]
+  declarations: [Tab3Page],
+  entryComponents: [ModalBaseComponent]
 })
 export class Tab3PageModule {}

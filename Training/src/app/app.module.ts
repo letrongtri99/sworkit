@@ -1,3 +1,5 @@
+import { SharedComponentsModule } from './components/shared-components.module';
+import { ModalBaseComponent } from './components/modal-base/modal-base.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
@@ -12,7 +14,7 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, SharedComponentsModule],
   providers: [
     StatusBar,
     SplashScreen,
