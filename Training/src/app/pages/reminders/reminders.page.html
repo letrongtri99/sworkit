@@ -1,0 +1,82 @@
+<ion-header text-center>
+  <ion-grid>
+    <ion-row style="align-items: center;">
+      <ion-col size="2">
+        <div class="ion-text-start">
+          <ion-buttons>
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+        </div>
+      </ion-col>
+      <ion-col size="8.5">
+        <div class="ion-text-center">
+          <ion-label style="font-weight: bold;">Reminders</ion-label>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-card-content>
+          <div>
+            <div style="float:left;">
+              <ion-avatar slot="start" style="margin-top:80%;">
+                <img src="assets/images/anh_20176671.jpg" style="max-width: 65%!important;max-height: 65%!important;">
+              </ion-avatar>
+            </div>
+            <div style="float:right;width:80%;">
+              <strong>Daily Reminder</strong><br>
+              Make exercise a daily habit! Reminders help you develop a routine to reach your health and fitness goals. Try to do at least 5 minutes of exercise per day.20 minutes is even better! On rest days, remember to do at least 5 minutes of stretching to keep up your daily habit.
+            </div>
+          </div>
+        </ion-card-content>
+    </ion-card>
+    <br>
+    <strong style="margin-left:15px;">DAILY REMINDER</strong>
+    <ion-list>
+      <ion-item lines="none" style="--background: #dcd0d085;">
+        <ion-label>Daily Reminder</ion-label>
+        <ion-toggle slot="end" name="banana" color="warning" [(ngModel)]="daily" (ionChange)="myChange('daily')"></ion-toggle>
+      </ion-item>
+      <ion-item *ngIf="daily == true" style="--background: #dcd0d085;">
+        <ion-label>Start Time</ion-label>
+        <ion-datetime display-format="h:mm a" picker-format="h:mm a" display-timezone="Asia/Bangkok" [(ngModel)]="myDate" style="color:orange;" (ionChange)="myChangeDaily('daily')"></ion-datetime>
+      </ion-item> 
+    </ion-list>
+    <strong style="margin-left:15px;">INACTIVITY REMINDER</strong>
+    <ion-list>
+      <ion-item lines="none" style="--background: #dcd0d085;">
+        <ion-label>After 5 days of inactivity</ion-label>
+        <ion-toggle slot="end" name="banana" color="warning" [(ngModel)]="inactivity"></ion-toggle>
+      </ion-item>
+      <ion-item *ngIf="inactivity == true" style="--background: #dcd0d085;">
+        <ion-label>Time</ion-label>
+        <ion-datetime display-format="h:mm a" picker-format="h:mm a" display-timezone="Asia/Bangkok" [(ngModel)]="myDateTime" style="color: orange;"></ion-datetime>
+      </ion-item>
+      <ion-item *ngIf="inactivity == true" style="--background: #dcd0d085;" class="option_f">
+        <ion-label>Popover</ion-label>
+        <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" value="1">
+          <ion-select-option value="1">1</ion-select-option>
+          <ion-select-option value="2">2</ion-select-option>
+          <ion-select-option value="3">3</ion-select-option>
+          <ion-select-option value="4">4</ion-select-option>
+          <ion-select-option value="5">5</ion-select-option>
+          <ion-select-option value="6">6</ion-select-option>
+          <ion-select-option value="7">7</ion-select-option>
+        </ion-select>
+      </ion-item> 
+    </ion-list>
+    <strong style="margin-left:15px;">NEXT WORKOUT REMINDER</strong>
+    <ion-list>
+      <ion-item lines="none" style="--background: #dcd0d085;">
+        <ion-label>Next Workout Reminder</ion-label>
+        <ion-toggle slot="end" name="banana" color="warning" [(ngModel)]="next" (ionChange)="myChange('next')"></ion-toggle>
+      </ion-item>
+      <ion-item *ngIf="next == true" style="--background: #dcd0d085;">
+        <ion-label>Time</ion-label>
+        <ion-datetime display-format="MMM DD h:mm a" picker-format="MMM DD h:mm a" display-timezone="Asia/Bangkok" [(ngModel)]="myDateNext" style="color:orange;" (ionChange)="myChangeDaily('next')"></ion-datetime>
+      </ion-item> 
+    </ion-list>
+</ion-content>
