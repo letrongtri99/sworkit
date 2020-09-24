@@ -8,7 +8,7 @@
         Workout Details
       </ion-title>
   
-      <ion-buttons slot="end" >
+      <ion-buttons slot="end" (click)="saveWorkout()">
         <ion-button>
           Save
         </ion-button>
@@ -17,5 +17,63 @@
   </ion-header>
   
   <ion-content>
+    <ion-list>
+      <ion-item>
+        <ion-label class="ion-text-wrap">
+          Name
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label class="ion-text-wrap">
+          Description
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label class="ion-text-wrap">
+          Workout Type
+        </ion-label>
+        <ion-select interface="popover" placeholder="Strength">
+          <ion-select-option >Strength</ion-select-option>
+          <ion-select-option >Cardio</ion-select-option>
+          <ion-select-option >Yoga</ion-select-option>
+          <ion-select-option >Stretching</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label class="ion-text-wrap">
+          Timing Setting
+        </ion-label>
+        <ion-select interface="popover">
+          <ion-select-option >Circuit Rounds</ion-select-option>
+          <ion-select-option >Minutes</ion-select-option>
+          <ion-select-option >Seven Minute</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label class="ion-text-wrap">
+          Advanced Timing
+        </ion-label>
+        <ion-toggle [(ngModel)]="advancedTiming"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label class="ion-text-wrap">
+          Other Setting
+        </ion-label>
+      </ion-item>
+    </ion-list>
 
+    <ion-list>
+      <ion-list-header>
+        EXERCISES
+      </ion-list-header>
+      <ion-item *ngFor="let exercise of selectedExercises" style="--min-height: 10vh">
+        <ion-icon style="color: red;" slot="start" name="remove-circle" (click)="deleteExercise(exercise.keyId)"></ion-icon>
+        <img  slot="start" width="20%" src="{{ exercise.img }}" alt="">
+        <ion-label class="ion-text-wrap">
+          <h3>{{ exercise.title }}</h3>
+        </ion-label>
+        <ion-badge style="color: #007bff; background: white; border: 1px solid #007bff;"  *ngIf="advancedTiming" color="primary">30s</ion-badge>
+        <ion-icon slot="end" name="menu"></ion-icon>
+      </ion-item>
+    </ion-list>
   </ion-content>
