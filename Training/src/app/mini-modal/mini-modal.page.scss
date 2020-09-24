@@ -1,0 +1,57 @@
+.circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.ripple-parent {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container {
+    background-size: cover;
+    height: 200px;
+}
+
+#test {
+    transition: height 400ms;
+}
+.setCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    width: 95%;
+    font-weight: bold;
+}
+
+.demo {
+    position: absolute;
+    top: 5px;
+}
+
+.adjustText {
+    color: darkslategrey;
+    padding-left: 100px;
+}
+
+.setLine {
+    position: absolute;
+    background-color: #fff;
+    height: 1px solid;
+    height: 1px;
+    width: 28%;
+    bottom: -1px;
+    left: 0px;
+}
+
+.setIcon {
+    position: absolute;
+    left: 7%;
+}
+
+.my-custom-class {
+    text-align: center;
+}

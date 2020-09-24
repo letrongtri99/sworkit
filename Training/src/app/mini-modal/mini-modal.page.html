@@ -1,0 +1,66 @@
+<ion-header>
+
+  <div class="ion-activatable ripple-parent circle demo" (click)="closeModal()">
+    <ion-icon name="arrow-back-outline" style="bottom: 32%; position: absolute; left: 30%; font-size: 1.2em; color: white;"></ion-icon>
+    <ion-ripple-effect style="color: #fff;"></ion-ripple-effect>
+  </div>
+  <div class="ion-activatable ripple-parent circle demo" style="position: absolute; right: 10%;" (click)="changeHeart()">
+    <ion-icon name="heart-outline" style="bottom: 32%; position: absolute; left: 30%; font-size: 1.2em; color: white;" id="heart"></ion-icon>
+    <ion-ripple-effect style="color: #fff;"></ion-ripple-effect>
+  </div>
+  <div class="ion-activatable ripple-parent circle demo" style="position: absolute; right: 0%;" (click)="showAction()">
+    <ion-icon name="share" style="bottom: 32%; position: absolute; left: 30%; font-size: 1.2em; color: white;"></ion-icon>
+    <ion-ripple-effect style="color: #fff;"></ion-ripple-effect>
+  </div>
+
+</ion-header>
+
+
+
+<ion-content padding>
+
+  <div style="position: relative; text-align: center;" id="hehe">
+    <div class="image-container" [style.background-image]="'url(assets/images/' + img + '.jpg)'" style="filter: brightness(0.5);" id="test">
+    </div>
+    <ion-text color="light">
+      <p class="setCenter">{{name}}</p>
+    </ion-text>
+  </div>
+  <div>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-text>  
+            <div style="color: dimgrey;">
+              {{content}}
+            </div>
+          </ion-text>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <hr style="border-top: 1px solid darkgrey; margin: 0px;">
+    <ion-grid>
+      <ion-row *ngFor="let x of exercises" style="padding: 13px 0; border-bottom: 1px solid darkgray; position: relative;">
+        <ion-text>
+          <div class="adjustText">
+            {{x.nameEx}}
+          </div>
+        </ion-text>
+        <ion-img src="assets/images/weightlifting.png" class="setIcon"></ion-img>
+        <div class="setLine"></div>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar style="text-align: center;">
+    <ion-button style="width: 80%; --background: #ff5e00"> 
+      Select Workout
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>
+
+
+

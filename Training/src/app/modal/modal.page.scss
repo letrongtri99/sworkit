@@ -1,0 +1,46 @@
+.circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.ripple-parent {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container {
+    background-size: cover;
+    height: 200px;
+}
+
+#test {
+    transition: height 400ms;
+}
+.setCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    width: 95%;
+    font-weight: bold;
+}
+
+.image-container1 {
+    background-size: cover;
+    min-height: 100px;
+    border-radius: 5px;
+}
+
+.setText {
+    color: #000000e8;
+    margin: 0;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.demo {
+    position: absolute;
+    top: 5px;
+}
