@@ -19,11 +19,11 @@
           <ion-icon name="reader" slot="start"></ion-icon>
           <ion-label>Reminders</ion-label>
         </ion-item>
-        <ion-item lines="none" [ngClass]="this.pages['library'] == true ? 'active' : ''" [routerLink]="['/price']" (click)="toggleMenu('library')">
+        <ion-item lines="none" [ngClass]="this.pages['library'] == true ? 'active' : ''" [routerLink]="['/library']" (click)="toggleMenu('library')">
           <ion-icon name="library" slot="start"></ion-icon>
           <ion-label>Exercise Library</ion-label>
         </ion-item>
-        <ion-item lines="none" [ngClass]="this.pages['account'] == true ? 'active' : ''" [routerLink]="['/price']" (click)="toggleMenu('account')">
+        <ion-item lines="none" [ngClass]="this.pages['account'] == true ? 'active' : ''" [routerLink]="['/library']" (click)="toggleMenu('account')">
           <ion-icon name="key-outline" slot="start"></ion-icon>
           <ion-label>My Account</ion-label>
         </ion-item>

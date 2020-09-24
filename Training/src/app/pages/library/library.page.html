@@ -1,0 +1,33 @@
+<ion-header text-center>
+  <ion-grid>
+    <ion-row style="align-items: center;height: 36px;">
+      <ion-col size="2">
+        <div class="ion-text-start">
+          <ion-buttons>
+            <ion-menu-button style="color:black;"></ion-menu-button>
+          </ion-buttons>
+        </div>
+      </ion-col>
+      <ion-col size="9">
+        <div class="ion-text-center">
+          <ion-label>Exercise Library</ion-label>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-searchbar style="--cancel-button-color: orange" placeholder="Search Exercises" showCancelButton="focus" cancelButtonText="Cancel"></ion-searchbar>
+</ion-header>
+    
+<ion-content>
+  <div class="ion-activatable ripple-parent" style="padding:5px 9px;">
+    <label>5 exercises</label>
+    <label style="float: right;">Filters</label>
+    <ion-ripple-effect style="height: 35px;"></ion-ripple-effect>
+  </div>
+  <ion-list>
+      <ion-item routerDirection="forward" [routerLink]="['/exercies']">
+          <ion-icon name="arrow-forward" slot="end"></ion-icon>
+          <ion-label>Go to settings</ion-label>
+      </ion-item>
+    </ion-list>
+</ion-content>

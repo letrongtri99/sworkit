@@ -15,49 +15,51 @@
         </ion-col>
       </ion-row>
     </ion-grid>
-  </ion-header>
+</ion-header>
   
   <ion-content translucent="true" no-border class="bg_price">
-        <p class="title_price">
-          Start a trial and cancer risk free if you're not statisfied   
-        </p>
-        <div class="before_after">
-          <img src="assets/images/Kaylee-Cardosa_BA.png">
-        </div>
-        <p class="title_price_2">Sworkit can help you reach your goals. Join Today!</p>
-        <div style="position: relative;padding-top:8px;">
-          <ion-button expand="block" class="price_button" style="margin-bottom:12px;">
-            <div style="position: absolute;left:0px">
-              <strong style="float:left;margin-bottom:5px;" >1.399.000 đ yearly</strong><br>
-              <span style="float:left;font-size:12px;">Billed annually after 7 day trial</span>
-            </div>
-            <ion-icon style="position: absolute;right: 0px;" name="arrow-forward-outline"></ion-icon>
-          </ion-button>
-          <div style="color:white;position:absolute;top:0px;right:30px;background-color: #dca707;padding:0px 10px;border-radius: 8px;">Save 50%</div>
-        </div>
-        <ion-button expand="block" class="plan_button" (click)="changePlan()" *ngIf="movePlan == false">
-          <div>
-            <strong>Or see all plans</strong>
+    <div style="background-image: url('assets/images/inline_image_preview.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;">
+      <p class="title_price">
+        Start a trial and cancer risk free if you're not statisfied   
+      </p>
+      <div class="before_after">
+        <img src="assets/images/Kaylee-Cardosa_BA.png">
+      </div>
+      <p class="title_price_2">Sworkit can help you reach your goals. Join Today!</p>
+      <div style="position: relative;padding-top:8px;">
+        <ion-button expand="block" class="price_button" style="margin-bottom:12px;">
+          <div style="position: absolute;left:0px">
+            <strong style="float:left;margin-bottom:5px;" >1.399.000 đ yearly</strong><br>
+            <span style="float:left;font-size:12px;">Billed annually after 7 day trial</span>
           </div>
+          <ion-icon style="position: absolute;right: 0px;" name="arrow-forward-outline"></ion-icon>
         </ion-button>
-        <ion-button expand="block" class="plan_price_button" (click)="changePlan()" *ngIf="movePlan == true">
-          <div style="position: absolute;left:0px;color:#17295a;">
-            <strong style="float:left;margin-bottom:5px;" >229.000 đ yearly</strong><br>
-            <span style="float:left;">Billed monthly after 7 day trial</span>
-          </div>
-          <ion-icon style="position: absolute;right: 0px;color: gray;" name="arrow-forward-outline"></ion-icon>
-        </ion-button>
-        <br>
-        <p style="color:white;text-align:center;font-weight:bold;font-size:20px;">Subscription Conditions</p>
-        <div class="two_sides">
-          <p class="text-white">When it comes to subscription services, the T&C needs provisions that are specific to the nature of the subscription service. Some of the clauses in your subscription service T&C may be clauses that aren't as important for apps and websites that don't deal with subscriptions.</p>
-          <p class="text-white">For example, since these services involve monthly or annual payments, you'll need to include terms for what will happen if a credit card or bank draft is declined, and how recurring charges will be processed.</p>
-          <p class="text-white">Return policies and intellectual property concerns are also paramount with subscriptions, especially if the service distribute products not yet released to the general market. You need to preserve your rights, inform users of expectations, and preserve any relationships you have with vendors.</p>
-          <a class="text-orange-terms" href="http://m.sworkit.com/TOS.html">Terms of Service</a>
-          <br><br>
-          <a class="text-orange-terms" href="http://m.sworkit.com/privacy.html">Privacy Policy</a>
-          <br><br>
+        <div style="color:white;position:absolute;top:0px;right:30px;background-color: #dca707;padding:0px 10px;border-radius: 8px;">Save 50%</div>
+      </div>
+      <ion-button expand="block" class="plan_button" (click)="changePlan()" *ngIf="movePlan == false">
+        <div>
+          <strong>Or see all plans</strong>
         </div>
+      </ion-button>
+      <ion-button expand="block" class="plan_price_button" (click)="changePlan()" *ngIf="movePlan == true">
+        <div style="position: absolute;left:0px;color:#17295a;">
+          <strong style="float:left;margin-bottom:5px;" >229.000 đ yearly</strong><br>
+          <span style="float:left;font-size:12px;">Billed monthly after 7 day trial</span>
+        </div>
+        <ion-icon style="position: absolute;right: 0px;color: gray;" name="arrow-forward-outline"></ion-icon>
+      </ion-button>
+      <br>
+      <p style="color:white;text-align:center;font-weight:bold;font-size:20px;">Subscription Conditions</p>
+      <div class="two_sides">
+        <p class="text-white">When it comes to subscription services, the T&C needs provisions that are specific to the nature of the subscription service. Some of the clauses in your subscription service T&C may be clauses that aren't as important for apps and websites that don't deal with subscriptions.</p>
+        <p class="text-white">For example, since these services involve monthly or annual payments, you'll need to include terms for what will happen if a credit card or bank draft is declined, and how recurring charges will be processed.</p>
+        <p class="text-white">Return policies and intellectual property concerns are also paramount with subscriptions, especially if the service distribute products not yet released to the general market. You need to preserve your rights, inform users of expectations, and preserve any relationships you have with vendors.</p>
+        <a class="text-orange-terms" href="http://m.sworkit.com/TOS.html">Terms of Service</a>
+        <br><br>
+        <a class="text-orange-terms" href="http://m.sworkit.com/privacy.html">Privacy Policy</a>
+        <br><br>
+      </div>
+    </div>
   </ion-content>
 
 

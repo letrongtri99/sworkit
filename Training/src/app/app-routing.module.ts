@@ -49,7 +49,16 @@ const routes: Routes = [
   {
     path: 'mini-modal',
     loadChildren: () => import('./mini-modal/mini-modal.module').then( m => m.MiniModalPageModule)
+  },
+  {
+    path: 'library',
+    loadChildren: () => import('./pages/library/library.module').then( m => m.LibraryPageModule)
+  },
+  {
+    path: 'exercies',
+    loadChildren: () => import('./pages/exercies/exercies.module').then( m => m.ExerciesPageModule)
   }
+
 ];
 @NgModule({
   imports: [
