@@ -1,0 +1,28 @@
+ion-header {
+    height: 30%;
+}
+
+ion-toolbar.header {
+    --background: url("https://i.pinimg.com/originals/29/27/09/292709260a93adc3e98a26b539d41aec.png") 0 0/100% 105% ;
+    height: 100%;
+}
+
+ion-buttons {
+    font-size: 28px;
+    color: #e7e7e7;
+}
+
+.button-customize{
+    position: absolute;
+    z-index: 10;
+    bottom: 2%;
+    right: 2%;
+}
+
+
+
+.avatar-profile {
+    display: block;
+    width: 60%;
+    margin: 50% auto;
+}

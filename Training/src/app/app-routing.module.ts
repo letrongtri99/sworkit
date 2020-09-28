@@ -57,7 +57,20 @@ const routes: Routes = [
   {
     path: 'exercies/:id',
     loadChildren: () => import('./pages/exercies/exercies.module').then( m => m.ExerciesPageModule)
+  },
+  {
+    path: 'my-plan-stronger',
+    loadChildren: () => import('./my-plan-stronger/my-plan-stronger.module').then( m => m.MyPlanStrongerPageModule)
+  },
+  {
+    path: 'leaner-beginner',
+    loadChildren: () => import('./leaner-beginner/leaner-beginner.module').then( m => m.LeanerBeginnerPageModule)
+  },
+  {
+    path: 'example-leaner-baseline',
+    loadChildren: () => import('./example-leaner-baseline/example-leaner-baseline.module').then( m => m.ExampleLeanerBaselinePageModule)
   }
+
 
 ];
 @NgModule({
