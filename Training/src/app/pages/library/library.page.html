@@ -15,19 +15,25 @@
       </ion-col>
     </ion-row>
   </ion-grid>
-  <ion-searchbar style="--cancel-button-color: orange" placeholder="Search Exercises" showCancelButton="focus" cancelButtonText="Cancel"></ion-searchbar>
+  <ion-searchbar [(ngModel)]="valueWork" style="--cancel-button-color: orange" placeholder="Search Exercises" showCancelButton="focus" cancelButtonText="Cancel" (ionChange)="getWorkOut()"></ion-searchbar>
 </ion-header>
     
 <ion-content>
-  <div class="ion-activatable ripple-parent" style="padding:5px 9px;">
+  <div class="ion-activatable ripple-parent" style="padding:5px 9px;border-bottom: 1px solid gray;">
     <label>5 exercises</label>
-    <label style="float: right;">Filters</label>
+    <label style="float: right;padding-top: 5px;">Filters</label>
     <ion-ripple-effect style="height: 35px;"></ion-ripple-effect>
   </div>
   <ion-list>
-      <ion-item routerDirection="forward" [routerLink]="['/exercies']">
-          <ion-icon name="arrow-forward" slot="end"></ion-icon>
-          <ion-label>Go to settings</ion-label>
+      <ion-item routerDirection="forward" *ngFor="let item of selectedWork" [routerLink]="['/exercies',item.id]" detail="false">
+          <ion-thumbnail slot="start">
+            <img [src] = "item.imgSrc">
+          </ion-thumbnail>
+          <ion-icon name="play-outline" slot="end"></ion-icon>
+          <ion-label>
+            <h3>{{item.title}}</h3>
+            <p>{{item.subtitle}}</p>
+          </ion-label>
       </ion-item>
     </ion-list>
 </ion-content>

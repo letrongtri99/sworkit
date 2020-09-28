@@ -55,7 +55,7 @@ const routes: Routes = [
     loadChildren: () => import('./pages/library/library.module').then( m => m.LibraryPageModule)
   },
   {
-    path: 'exercies',
+    path: 'exercies/:id',
     loadChildren: () => import('./pages/exercies/exercies.module').then( m => m.ExerciesPageModule)
   }
 

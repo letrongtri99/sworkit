@@ -1,0 +1,14 @@
+.action {
+    --background:#041229;
+    --box-shadow: none;
+}
+.playButton {
+    position: absolute;
+    top:30%;
+    left:44%;
+    font-size:40px;
+    background-color: gray;
+    color:white;
+    border-radius:50%;
+    padding:6px;
+}

@@ -1,9 +1,20 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>exercies</ion-title>
+  <ion-toolbar style="padding-top:0px!important;--background:#041229">
+    <ion-buttons slot="start" style="color:white;">
+        <ion-back-button defaultHref="/exercies"></ion-back-button>
+    </ion-buttons>
+    <ion-title style="text-align:center;color:white;">180 jumps</ion-title>
+    <ion-button size="default" slot="end" class="action" (click)="presentActionSheet()">
+      <ion-icon name="cloud-upload-outline"></ion-icon>
+    </ion-button>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content style="--background:#041229">
+  <div style="margin:10px 15px;position: relative;">
+    <video width="100%" loop preload="metadata" webkit-playsinline="webkit-playsinline" style="border-radius:12px;" class="videoPlayer">
+      <source src="https://storage.googleapis.com/sworkit-assets/video/ios/180-jump-kids.mp4" type="video/mp4" />
+    </video>
+    <ion-icon class="playButton" name="play-outline" (click)="playVideo($event);"></ion-icon>
+  </div>
 </ion-content>
