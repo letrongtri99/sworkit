@@ -11,9 +11,10 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CreateCustomWokroutModalPageModule } from './create-custom-wokrout-modal/create-custom-wokrout-modal.module';
+import { ExpandableHeaderDirective } from './directives/expandable-header.directive';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ExpandableHeaderDirective],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, SharedComponentsModule, CreateCustomWokroutModalPageModule],
   providers: [
