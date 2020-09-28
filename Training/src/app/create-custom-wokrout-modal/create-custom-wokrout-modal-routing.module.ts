@@ -8,10 +8,6 @@ const routes: Routes = [
   {
     path: '',
     component: CreateCustomWokroutModalPage
-  },
-  {
-    path: '/tab3',
-    component: Tab3Page
   }
 ];
 

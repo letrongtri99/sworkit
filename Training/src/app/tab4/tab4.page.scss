@@ -2,19 +2,30 @@ ion-header {
     position: relative;
     text-align: center;
     background-color: black;
+    margin: 0 auto;
+
     ion-label {
         position: absolute;
         top: 40%;
         left: 0;
         right: 0;
-        color: #fff;
-        font-size: 14px;
+        color: #f1f1f1;
         font-weight: bold;
+        font-size: 25px;
     }
     
     ion-text {
         color: #fff;
         font-size: 12px;
+        font-weight: 400;
+    }
+
+    ion-toolbar {
+        position: absolute;
+        top: 0%;
+        --background: transparent;
+        --color: #f1f1f1;
+        
     }
 
     #calendar-btn {

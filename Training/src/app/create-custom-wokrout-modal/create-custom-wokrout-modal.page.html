@@ -7,7 +7,7 @@
         </ion-button>
       </ion-buttons>
       <ion-title>Create Custom Workout<br>
-        <small>0 exercise</small>
+        <small>{{selectedExercise.length}} exercise</small>
       </ion-title>
   
       <ion-buttons slot="end" >
@@ -15,11 +15,6 @@
           Next
         </ion-button>
       </ion-buttons>
-      <!-- <ion-nav-link router-direction="forward" [component]="settingPage">
-        <ion-item button>
-          <ion-icon name="arrow-forward" slot="end"></ion-icon>Next
-        </ion-item>
-      </ion-nav-link> -->
     </ion-toolbar>
 
     <ion-slides #customWorkoutSlide [options]="slideOpt">
@@ -32,7 +27,8 @@
       </ion-slide>
       <ion-slide *ngFor="let exercise of selectedExercise">
         <div class="item">
-          <button *ngIf="exercise.title != ''" (click)="deleteExercise(exercise.keyId)">x</button>
+          <ion-icon *ngIf="exercise.title != ''" (click)="deleteExercise(exercise.keyId)" name="close-circle"></ion-icon>
+          <!-- <button *ngIf="exercise.title != ''" (click)="deleteExercise(exercise.keyId)">x</button> -->
           <img
             src="{{ exercise.img }}" />
           <span class="caption">{{exercise.title}}</span>
@@ -49,7 +45,7 @@
   
   
     <ion-text style="margin-left: 10px; float: left; margin-top: 10px;">
-      {{exercises.length}}
+      {{filterExercises.length}} exercises
     </ion-text>
     <ion-text style="--color: #505050; float: right; margin-top: 10px;">
       Filter <span>
@@ -57,14 +53,14 @@
       </span>
     </ion-text>
   
-    <ion-searchbar style="--cancel-button-color: orange" placeholder="Search Exercises" showCancelButton="focus" cancelButtonText="Cancel"></ion-searchbar>
+    <ion-searchbar style="--cancel-button-color: orange" placeholder="Search Exercises" showCancelButton="focus" cancelButtonText="Cancel" (ionInput)="onInput($event.target.value)"  (ionCancel)="onCancel()" (ionClear)="onCancel()"></ion-searchbar>
   </ion-header>
   
   <ion-content>
     <ion-list>
-      <ion-item button *ngFor="let exercise of exercises" (click)="addExercise(exercise.id)">
+      <ion-item button *ngFor="let exercise of filterExercises" (click)="addExercise(exercise.id)">
         <img  slot="start" width="20%" src="{{ exercise.img }}" alt="">
-        <ion-label>
+        <ion-label class="ion-text-wrap">
           <h3>{{ exercise.title }}</h3>
           <ion-note>{{ exercise.subtitle }}</ion-note>
         </ion-label>
