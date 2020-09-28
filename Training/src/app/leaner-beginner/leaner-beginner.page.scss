@@ -1,0 +1,65 @@
+    ion-header {
+        height: 30%;
+    }
+
+    ion-toolbar {
+        --background: url("https://i.pinimg.com/originals/29/27/09/292709260a93adc3e98a26b539d41aec.png") 0 0/100% 105% ;
+        height: 100%;
+    }
+
+    ion-button.plan-button {
+        position: absolute;
+        bottom: 7%;
+        z-index: 10;
+        right: 30%;
+    }
+
+    ion-card.action-card {
+        position: relative;
+        margin-top: 0;
+        top:-1%;
+    }
+
+    .white-stuff {
+        top: -7.2%;
+        z-index: 10;
+        margin: 0 2.8%;
+        position: relative;
+        background-color: white;
+        border-radius: 6px 6px 0px 0px;
+    }
+
+    ion-card-header {
+        padding: 5px 0;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .avatar-profile {
+        display: block;
+        width: 70%;
+        border-radius: 50%;
+        margin: 50% auto;
+    }
+
+    ion-card-content {
+        padding: 0;
+    }
+
+    ion-list.list-md {
+        padding: 0;
+    }
+
+    .number-list {
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        background: #fff;
+        border: 3px solid #e7e7e7;
+        color: #e7e7e7;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    ion-grid.exercise-list {
+        padding: 10px 0 10px 0px;
+    }

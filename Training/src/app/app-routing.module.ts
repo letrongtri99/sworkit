@@ -9,13 +9,26 @@ const routes: Routes = [
   {
     path: 'my-plan',
     loadChildren: () => import('./my-plan/my-plan.module').then( m => m.MyPlanPageModule)
-  },  {
+  },
+  {
     path: 'my-plan-leaner',
     loadChildren: () => import('./my-plan-leaner/my-plan-leaner.module').then( m => m.MyPlanLeanerPageModule)
   },
   {
     path: 'my-plan-fitter',
     loadChildren: () => import('./my-plan-fitter/my-plan-fitter.module').then( m => m.MyPlanFitterPageModule)
+  },
+  {
+    path: 'my-plan-stronger',
+    loadChildren: () => import('./my-plan-stronger/my-plan-stronger.module').then( m => m.MyPlanStrongerPageModule)
+  },
+  {
+    path: 'leaner-beginner',
+    loadChildren: () => import('./leaner-beginner/leaner-beginner.module').then( m => m.LeanerBeginnerPageModule)
+  },
+  {
+    path: 'example-leaner-baseline',
+    loadChildren: () => import('./example-leaner-baseline/example-leaner-baseline.module').then( m => m.ExampleLeanerBaselinePageModule)
   }
 
 

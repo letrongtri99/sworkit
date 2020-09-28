@@ -9,11 +9,13 @@
 
 <ion-content>
   <ion-text class="description">
-    <h6>Tone Up, Feel Amazing</h6>
+    <h6>
+      <b>Tone Up, Feel Amazing</b>
+    </h6>
     <p class="description-content">Leaner is here to help you focus on toning your body feeling great about the body you are</p>
   </ion-text>
-  <ion-list class="margin-top-90">
-    <ion-item button>
+  <ion-list class="margin-top-90"  routerLink="/leaner-beginner">
+    <ion-item button detail-icon>
       <ion-grid>
         <ion-row>
           <ion-col size="2">1</ion-col>
@@ -25,10 +27,10 @@
       </ion-grid>
     </ion-item>
   </ion-list>
-  <ion-list>
-    <ion-item button>
+  <ion-list >
+    <ion-item button detail-icon>
       <ion-grid>
-        <ion-row>
+        <ion-row >
           <ion-col size="2">2</ion-col>
           <ion-col size="9">Intermediate</ion-col>
           <ion-col size="1">
@@ -39,10 +41,10 @@
     </ion-item>
   </ion-list>
   <ion-list>
-    <ion-item button>
+    <ion-item button detail-icon>
       <ion-grid>
         <ion-row>
-          <ion-col size="2">3</ion-col>
+          <ion-col size="2" style="border-bottom: none;">3</ion-col>
           <ion-col size="9">Advanced</ion-col>
           <ion-col size="1">
             <ion-icon name="chevron-forward-outline"></ion-icon>
