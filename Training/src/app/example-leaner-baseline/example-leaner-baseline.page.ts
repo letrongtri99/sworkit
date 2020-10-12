@@ -1,5 +1,6 @@
-import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostListener, NgModule, OnInit } from '@angular/core';
 import { ActionSheetController } from '@ionic/angular';
+
 
 @Component({
   selector: 'app-example-leaner-baseline',

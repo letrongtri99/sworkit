@@ -1,5 +1,5 @@
-<ion-header>
-  <ion-toolbar class="header">
+<ion-header #header>
+  <ion-toolbar id="headerimage" class="header-image">
     <ion-buttons slot="start" >
       <ion-back-button defaultHref="/leaner-beginner"></ion-back-button>
     </ion-buttons>
@@ -12,27 +12,166 @@
   </ion-toolbar>
   <div class="button-customize">
     <ion-buttons slot="end" (click)="openActionCustomize()">
-      <ion-icon name="create"></ion-icon>
+      <ion-icon name="create" style="margin-right: 5px;"></ion-icon>
       <p style="font-size: 20px; margin: 0;">Customize</p>
     </ion-buttons>
   </div>
 </ion-header>
 
-<ion-content>
-  <ion-grid style="border-bottom: 1px solid #e7e7e7;">
-    <ion-row>
-      <ion-col size="3">
-        <div class="avatar-profile">
-          <img style="border-radius: 50%;" src="https://www.petlandsummerville.com/wp-content/uploads/2019/12/Poodle_Square.jpg" alt="">
-        </div>
-      </ion-col>
-      <ion-col size="9"> 
-        <p style="font-size: 17.5px; line-height: 23px; margin: 0; ">
-          This fun benchmark workout is designed to measure your baseline strength and fitness, during the rests note down the number of reps you do per exercise so we can check progress in week 4 and 6.
-        </p>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+<ion-content [scrollEvents]="true" appHideHeader [header]="header">
+  <div class="main-content">
+    <ion-grid style="border-bottom: 1px solid #e7e7e7;">
+      <ion-row>
+        <ion-col size="3">
+          <div class="avatar-profile">
+            <img style="border-radius: 50%;" src="https://www.petlandsummerville.com/wp-content/uploads/2019/12/Poodle_Square.jpg" alt="">
+          </div>
+        </ion-col>
+        <ion-col size="9"> 
+          <p style="font-size: 17.5px; line-height: 23px; margin: 0; ">
+            This fun benchmark workout is designed to measure your baseline strength and fitness, during the rests note down the number of reps you do per exercise so we can check progress in week 4 and 6.
+          </p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <div>
+      <ion-list routerLink="/example-leaner-baseline" >
+        <ion-item button detail-icon>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="3">
+                <div class="number-list">1</div>
+              </ion-col>
+              <ion-col size="8" style="padding-left: 3px; line-height: 30px;">Leaner Baseline</ion-col>
+              <ion-col size="1">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </ion-list>
+      <ion-list routerLink="/example-leaner-baseline" >
+        <ion-item button detail-icon>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="3">
+                <div class="number-list">1</div>
+              </ion-col>
+              <ion-col size="8" style="padding-left: 3px; line-height: 30px;">Leaner Baseline</ion-col>
+              <ion-col size="1">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </ion-list>
+      <ion-list routerLink="/example-leaner-baseline" >
+        <ion-item button detail-icon>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="3">
+                <div class="number-list">1</div>
+              </ion-col>
+              <ion-col size="8" style="padding-left: 3px; line-height: 30px;">Leaner Baseline</ion-col>
+              <ion-col size="1">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </ion-list>
+      <ion-list routerLink="/example-leaner-baseline" >
+        <ion-item button detail-icon>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="3">
+                <div class="number-list">1</div>
+              </ion-col>
+              <ion-col size="8" style="padding-left: 3px; line-height: 30px;">Leaner Baseline</ion-col>
+              <ion-col size="1">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </ion-list>
+      <ion-list routerLink="/example-leaner-baseline" >
+        <ion-item button detail-icon>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="3">
+                <div class="number-list">1</div>
+              </ion-col>
+              <ion-col size="8" style="padding-left: 3px; line-height: 30px;">Leaner Baseline</ion-col>
+              <ion-col size="1">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </ion-list>
+      <ion-list routerLink="/example-leaner-baseline" >
+        <ion-item button detail-icon>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="3">
+                <div class="number-list">1</div>
+              </ion-col>
+              <ion-col size="8" style="padding-left: 3px; line-height: 30px;">Leaner Baseline</ion-col>
+              <ion-col size="1">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </ion-list>
+      <ion-list routerLink="/example-leaner-baseline" >
+        <ion-item button detail-icon>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="3">
+                <div class="number-list">1</div>
+              </ion-col>
+              <ion-col size="8" style="padding-left: 3px; line-height: 30px;">Leaner Baseline</ion-col>
+              <ion-col size="1">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </ion-list>
+      <ion-list routerLink="/example-leaner-baseline" >
+        <ion-item button detail-icon>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="3">
+                <div class="number-list">1</div>
+              </ion-col>
+              <ion-col size="8" style="padding-left: 3px; line-height: 30px;">Leaner Baseline</ion-col>
+              <ion-col size="1">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </ion-list>
+      <ion-list routerLink="/example-leaner-baseline" >
+        <ion-item button detail-icon>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="3">
+                <div class="number-list">1</div>
+              </ion-col>
+              <ion-col size="8" style="padding-left: 3px; line-height: 30px;">Leaner Baseline</ion-col>
+              <ion-col size="1">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </ion-list>  
+    </div> 
+  </div>                    
 </ion-content>
 
 <ion-footer >

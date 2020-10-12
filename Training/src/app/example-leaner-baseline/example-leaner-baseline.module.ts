@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { ExampleLeanerBaselinePageRoutingModule } from './example-leaner-baseline-routing.module';
 
 import { ExampleLeanerBaselinePage } from './example-leaner-baseline.page';
+import { HideHeaderDirective } from '../hide-header.directive';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { ExampleLeanerBaselinePage } from './example-leaner-baseline.page';
     IonicModule,
     ExampleLeanerBaselinePageRoutingModule
   ],
-  declarations: [ExampleLeanerBaselinePage]
+  declarations: [ExampleLeanerBaselinePage, HideHeaderDirective]
 })
 export class ExampleLeanerBaselinePageModule {}
