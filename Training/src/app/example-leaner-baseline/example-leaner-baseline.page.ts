@@ -1,5 +1,6 @@
+import { Content } from '@angular/compiler/src/render3/r3_ast';
 import { Component, ElementRef, HostListener, NgModule, OnInit } from '@angular/core';
-import { ActionSheetController } from '@ionic/angular';
+import { ActionSheetController, LoadingController } from '@ionic/angular';
 
 
 @Component({
@@ -8,9 +9,28 @@ import { ActionSheetController } from '@ionic/angular';
   styleUrls: ['./example-leaner-baseline.page.scss'],
 })
 export class ExampleLeanerBaselinePage implements OnInit {
+  visible: boolean;
 
-  constructor( private actionSheetCtrl: ActionSheetController) { }
+  constructor( private actionSheetCtrl: ActionSheetController, private loadingController: LoadingController) { }
   
+
+  async showLoading() {
+    this.visible = !this.visible;
+    if ( this.visible ) {
+      let loading = await this.loadingController.create({
+        message:"Added to your Favourite",
+        duration: 3000,
+        showBackdrop: true,
+        spinner: null
+      }); 
+      
+      loading.present();
+      setTimeout(() => {
+        loading.dismiss()
+      }, 5000)
+    }
+  }
+
   async openActionSheet() {
     let actionSheet = await this.actionSheetCtrl.create({
       header: 'Modify your album',

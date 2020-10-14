@@ -3,8 +3,8 @@
     <ion-buttons slot="start" >
       <ion-back-button defaultHref="/leaner-beginner"></ion-back-button>
     </ion-buttons>
-    <ion-buttons slot="end"  style="margin-right: 10px;">
-      <ion-icon name="heart-outline"></ion-icon>
+    <ion-buttons slot="end" (click)="showLoading()"  style="margin-right: 10px;">
+      <ion-icon [name]="visible ? 'heart' :'heart-outline'"></ion-icon>
     </ion-buttons >
     <ion-buttons slot="end" (click)="openActionSheet()">
       <ion-icon  name="share"></ion-icon>
