@@ -16,7 +16,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CreateCustomWokroutModalPageModule } from './create-custom-wokrout-modal/create-custom-wokrout-modal.module';
 import { ExpandableHeaderDirective } from './directives/expandable-header.directive';
-import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 import { ImagePicker } from '@ionic-native/image-picker/ngx';
 import { File } from '@ionic-native/file/ngx';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
@@ -34,7 +33,7 @@ import { Geolocation } from '@ionic-native/geolocation/ngx';
     ImagePicker,
     File,
     Camera,
-    Geolocation
+    Geolocation,
     PhotoLibrary,
     Camera
   ],
