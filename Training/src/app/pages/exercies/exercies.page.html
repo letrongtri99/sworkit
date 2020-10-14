@@ -3,7 +3,7 @@
     <ion-buttons slot="start" style="color:white;">
         <ion-back-button defaultHref="/exercies"></ion-back-button>
     </ion-buttons>
-    <ion-title style="text-align:center;color:white;">180 jumps</ion-title>
+    <ion-title style="text-align:center;color:white;font-size:15px;">{{selectedWork.title}}</ion-title>
     <ion-button size="default" slot="end" class="action" (click)="presentActionSheet()">
       <ion-icon name="cloud-upload-outline"></ion-icon>
     </ion-button>
@@ -13,7 +13,7 @@
 <ion-content style="--background:#041229">
   <div style="margin:10px 15px;position: relative;">
     <video width="100%" loop preload="metadata" webkit-playsinline="webkit-playsinline" style="border-radius:12px;" class="videoPlayer">
-      <source src="https://storage.googleapis.com/sworkit-assets/video/ios/180-jump-kids.mp4" type="video/mp4" />
+      <source [src]="selectedWork.videoSrc" type="video/mp4" />
     </video>
     <ion-icon class="playButton" name="play-outline" (click)="playVideo($event);"></ion-icon>
   </div>

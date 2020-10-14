@@ -35,8 +35,7 @@ export class AppComponent {
 
   initializeApp() {
     this.platform.ready().then(() => {
-      this.statusBar.styleDefault();
-      
+      this.statusBar.hide();
       setTimeout(() => {
         this.splashScreen.hide();
       }, 3000);

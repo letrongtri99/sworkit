@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar style="padding-top: 0px;">
+    <ion-title style="text-align: center;">Edit Profile</ion-title>
+    <ion-text slot="start" style="margin-left:6px;color: orange;" (click)="dismiss()">Cancel</ion-text>
+    <ion-text slot="end" style="margin-right:6px;color: orange;" (click)="dismissSave()">Save</ion-text>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+   <ion-list>
+    <ion-item>
+      <ion-label>First Name</ion-label>
+      <ion-input slot="end" [(ngModel)]="firstNameAccount" style="text-align: right;"></ion-input>
+    </ion-item>
+   </ion-list>
+</ion-content>

@@ -69,7 +69,19 @@ const routes: Routes = [
   {
     path: 'example-leaner-baseline',
     loadChildren: () => import('./example-leaner-baseline/example-leaner-baseline.module').then( m => m.ExampleLeanerBaselinePageModule)
+  },
+  {
+    path: 'account',
+    loadChildren: () => import('./pages/account/account.module').then( m => m.AccountPageModule)
+  },  {
+    path: 'modal-account',
+    loadChildren: () => import('./pages/modal-account/modal-account.module').then( m => m.ModalAccountPageModule)
+  },
+  {
+    path: 'music',
+    loadChildren: () => import('./pages/music/music.module').then( m => m.MusicPageModule)
   }
+
 
 
 ];
