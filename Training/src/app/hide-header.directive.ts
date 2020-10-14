@@ -35,8 +35,8 @@ export class HideHeaderDirective implements OnInit {
       }
 
       this.domCtrl.write(() => {
-        this.renderer.setStyle(this.header, 'transform', 'translate3d(0,'+translateAmt+'px,0) scale('+scaleAmt+','+scaleAmt+')');
-        this.renderer.setStyle(this.mainContent, 'transform', 'translate3d(0, '+(-$event.detail.scrollTop) + 'px, 0');
+        // this.renderer.setStyle(this.header, 'transform', 'translate3d(0,'+translateAmt+'px,0) scale('+scaleAmt+','+scaleAmt+')');
+        // this.renderer.setStyle(this.mainContent, 'transform', 'translate3d(0, '+(-$event.detail.scrollTop) + 'px, 0');
       });
     })
     
