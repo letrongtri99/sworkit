@@ -1,26 +1,48 @@
 <ion-header>
-  <ion-img src="https://img.freepik.com/free-photo/old-grunge-cement-wall-backgrounds_34552-195.jpg?size=626&ext=jpg">
+  <ion-img style="height: 250px; max-height: 250px;" [src]="myAvatar">
   </ion-img>
+  <ion-toolbar class="test">
+    <ion-buttons slot="start">
+      <ion-menu-button style="color: #f1f1f1;" auto-hide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="primary" (click)="presentActionSheet()" style="--color: orange">
+      <ion-button>
+        <ion-icon style="color: #f1f1f1;" name="camera"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
   <ion-label>Bao Quoc dz<br>
     <ion-text>Start your workout streak today!</ion-text>
   </ion-label>
 
-  <ion-button id="calendar-btn">
+  <ion-button id="calendar-btn" (click)="showCalendar()" *ngIf="isShowCalendarBtn">
     <ion-icon name="calendar-outline"></ion-icon>
     <span style="margin-left: 5px;
                 margin-top: 5px;
                 font-size: 16px;
+                transition: all 0.3s ease 0s;
                 text-transform: none;">Calendar</span>
   </ion-button>
+
+  <ion-button id="calendar-btn" (click)="showStats()" *ngIf="isShowStatsBtn">
+    <ion-icon name="stats-chart"></ion-icon>
+    <span style="margin-left: 5px;
+                margin-top: 5px;
+                font-size: 16px;
+                transition: all 0.3s ease 0s;
+                text-transform: none;">Stats</span>
+  </ion-button>
   <div class="float-stat-container shadow bg-white rounded">
-    <ion-fab vertical="top" horizontal="start" slot="fixed" style="font-size: 24px;" (click)="swipePrev()" *ngIf="!disablePrevBtn">
+    <!-- <ion-fab vertical="top" horizontal="start" slot="fixed" style="font-size: 24px;" (click)="swipePrev()" *ngIf="!disablePrevBtn">
       <ion-icon name="arrow-back-outline"></ion-icon>
     </ion-fab>
     <ion-fab vertical="top" horizontal="end" slot="fixed" style="font-size: 24px;" (click)="swipeNext()" *ngIf="!disableNextBtn">
       <ion-icon name="arrow-forward-outline"></ion-icon>
-    </ion-fab>
-
-    <ion-slides #mySlider (ionSlideWillChange)="doCheck()">
+    </ion-fab> -->
+    <div class="" id="calendar" style="display: none;">
+      <mbsc-calendar  [(ngModel)]="cal" [options]="calSettings" ></mbsc-calendar>
+    </div>
+    <ion-slides #mySlider (ionSlideWillChange)="doCheck()" id="slides">
       <ion-slide>
         <app-stats-table style="width:100%">
 

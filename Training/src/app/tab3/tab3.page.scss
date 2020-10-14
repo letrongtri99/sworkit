@@ -1,20 +1,23 @@
 ion-header {
     position: relative;
-    text-align: center;
-    background-color: black;
-    
-    ion-img {
-        opacity: 0.5;
-    }
-    
+    margin: 0 auto;
+    color: #f1f1f1;
+
     ion-label {
+        --color: #f1f1f1;
         position: absolute;
-        top: 50%;
-        left: 0;
-        right: 0;
-        color: #fff;
-        font-size: 14px;
+        top: 40%;
+        left: 15%;
         font-weight: bold;
+        font-size: 25px;
+        
+    }
+    ion-toolbar {
+        position: absolute;
+        top: 0%;
+        --background: transparent;
+        --color: #f1f1f1;
+        
     }
 }
 

@@ -2,19 +2,36 @@ ion-header {
     position: relative;
     text-align: center;
     background-color: black;
+    margin: 0 auto;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
     ion-label {
         position: absolute;
         top: 40%;
         left: 0;
         right: 0;
-        color: #fff;
-        font-size: 14px;
+        color: #f1f1f1;
         font-weight: bold;
+        font-size: 25px;
     }
     
     ion-text {
         color: #fff;
         font-size: 12px;
+        font-weight: 400;
+    }
+
+    ion-toolbar {
+        position: absolute;
+        top: 0%;
+        --background: transparent;
+        --color: #f1f1f1;
+        
     }
 
     #calendar-btn {
@@ -69,4 +86,24 @@ ion-content {
     margin: 0 20px;
     z-index: 999;
     padding: 15px;
+}
+
+.demo-non-form {
+    color: initial;
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-family: arial, verdana, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+.external-container button.external-button {
+    font-weight: 400;
+    padding: 10px;
+    margin: 6px 0 13px 0;
+    width: 100%;
 }
