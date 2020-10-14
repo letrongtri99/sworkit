@@ -1,8 +1,12 @@
+import { FormsModule } from '@angular/forms';
+import { MbscModule } from '@mobiscroll/angular';
 import { SharedComponentsModule } from './components/shared-components.module';
 import { ModalBaseComponent } from './components/modal-base/modal-base.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
+import { PhotoLibrary } from '@ionic-native/photo-library/ngx';
+import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
@@ -20,7 +24,9 @@ import { Geolocation } from '@ionic-native/geolocation/ngx';
 @NgModule({
   declarations: [AppComponent, ExpandableHeaderDirective],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, SharedComponentsModule, CreateCustomWokroutModalPageModule],
+  imports: [ 
+    FormsModule,  
+    MbscModule, BrowserModule, IonicModule.forRoot(), AppRoutingModule, SharedComponentsModule, CreateCustomWokroutModalPageModule],
   providers: [
     StatusBar,
     SplashScreen,
@@ -29,6 +35,8 @@ import { Geolocation } from '@ionic-native/geolocation/ngx';
     File,
     Camera,
     Geolocation
+    PhotoLibrary,
+    Camera
   ],
   bootstrap: [AppComponent]
 })

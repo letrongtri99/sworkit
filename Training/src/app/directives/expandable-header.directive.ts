@@ -53,8 +53,8 @@ export class ExpandableHeaderDirective implements OnInit {
   hide(){
 
     this.domCtrl.write(() => {
-      this.renderer.setStyle(this.element.nativeElement, 'min-height', '0px');
-      this.renderer.setStyle(this.element.nativeElement, 'height', '0px');
+      this.renderer.setStyle(this.element.nativeElement, 'min-height', '20px');
+      this.renderer.setStyle(this.element.nativeElement, 'height', '20px');
       this.renderer.setStyle(this.element.nativeElement, 'opacity', '0');
       this.renderer.setStyle(this.element.nativeElement, 'padding', '0');
     });
@@ -66,7 +66,7 @@ export class ExpandableHeaderDirective implements OnInit {
   show(){
 
     this.domCtrl.write(() => {
-      this.renderer.setStyle(this.element.nativeElement, 'height', '55px');
+      this.renderer.setStyle(this.element.nativeElement, 'height', 'initial');
       this.renderer.removeStyle(this.element.nativeElement, 'opacity');
       this.renderer.removeStyle(this.element.nativeElement, 'min-height');
       this.renderer.removeStyle(this.element.nativeElement, 'padding');

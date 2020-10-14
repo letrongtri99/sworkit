@@ -1,6 +1,8 @@
+import { ExpandableHeaderDirective } from './../directives/expandable-header.directive';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { MbscModule } from '@mobiscroll/angular';
 
 import { IonicModule } from '@ionic/angular';
 
@@ -14,9 +16,10 @@ import { MonthlyStatsTableComponent } from '../components/monthly-stats-table/mo
   imports: [
     CommonModule,
     FormsModule,
+    MbscModule,
     IonicModule,
     Tab4PageRoutingModule
   ],
-  declarations: [Tab4Page, StatsTableComponent, MonthlyStatsTableComponent]
+  declarations: [Tab4Page, StatsTableComponent, MonthlyStatsTableComponent, ExpandableHeaderDirective]
 })
 export class Tab4PageModule {}

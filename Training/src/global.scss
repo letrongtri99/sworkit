@@ -36,3 +36,9 @@
 .AccountIcon span {
     justify-content: center!important;
 }
+
+.my-custom-class {
+    --color: orange;
+    --button-color: orange;
+}
+@import "~@mobiscroll/angular/dist/css/mobiscroll.scss";
